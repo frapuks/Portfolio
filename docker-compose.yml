@@ -1,0 +1,9 @@
+version: '1'
+
+services:
+  portfolio-frapuks:
+    container_name: "portfolio-frapuks-react"
+    image: portfolio-frapuks-react
+    ports:
+      - '6005:6005'
+    restart: always
