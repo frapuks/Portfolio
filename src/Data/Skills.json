@@ -9,7 +9,7 @@
   {
     "icon": "Devices",
     "title": "FRONT-END",
-    "text": "Les fonctionnalités, l'interactivité... L'optimisaion des parcours utilisateur est une passion.",
+    "text": "Les fonctionnalités, l'interactivité... L'optimisation du parcours utilisateur est une passion.",
     "languages": "Html, Css, Javascript, React, Flutter",
     "tools": ["VS Code", "Android Studio", "Netlify", "Material UI", "Figma", "Adobe Photoshop"]
   },
