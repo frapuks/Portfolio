@@ -4,7 +4,7 @@ import { Box, Button, Container, Divider, List, ListItem, ListItemIcon, ListItem
 const Contact = () => {
 
   return (
-    <Box component="section" id="contact" paddingTop={10} paddingBottom={10} color="text.primary">
+    <Box component="section" id="contact" paddingTop={10} color="text.primary">
       <Container>
         <Stack alignItems="center" spacing={3}>
           <Typography variant="h4" fontWeight="bold" textAlign="center">Intéressé par mon profil ?</Typography>
@@ -28,6 +28,7 @@ const Contact = () => {
           <Button variant="outlined" startIcon={<Download />} href="/francoisGrunert.pdf" download="francoisGrunert.pdf">Mon CV</Button>
           <Button variant="contained" startIcon={<Send />} href="mailto:francoisgrunert@gmail.com">Ecrivez moi</Button>
         </Stack>
+        <Box component="img" alt="devices" src="/devices.png" width="100%"></Box>
       </Container>
     </Box>
   )

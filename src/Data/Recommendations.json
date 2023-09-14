@@ -1,44 +1,30 @@
 [
   {
-      "name": "Alice Dev",
-      "title": "Collaboration exceptionnelle",
-      "text": "J'ai eu le plaisir de travailler avec François sur plusieurs projets de développement. Sa compétence technique, son engagement et sa capacité à résoudre des problèmes complexes en font un développeur exceptionnel. Je recommande vivement sa collaboration!",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKyK8s08-j_7H0LRBug1Gr_M0Tudwk9zui7g&usqp=CAU",
-      "url": "https://www.linkedin.com/in/francois-grunert/"
+      "name": "Brice V.",
+      "title": "Excellente communication",
+      "text": "François a travaillé pour le compte de ma société (HC-Domotique) sur la réalisation de notre système de gestion. François a pris en charge l'intégralité du JavaScript du site et une partie du code HTML/CSS. La transmission du cahier des charges du site s'est faite très rapidement. François a un très bon sens de la compréhension du besoin du client et de très bonnes compétences en développement Web. Le code fourni est construit avec méthode. Un grand merci pour sa réactivité et sa proactivité.",
+      "image": "/brice.webp",
+      "url": "https://www.linkedin.com/in/hc-domotique-brice-vincent/"
   },
   {
-      "name": "Bob Coder",
-      "title": "Expert en programmation",
-      "text": "François est un expert en programmation. J'ai eu l'opportunité de travailler avec lui sur un projet difficile, et il a été capable de le livrer avec succès dans les délais impartis. Sa maîtrise des langages de programmation est impressionnante.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSeggPUCqBwUcsaxnHVOCFhyVROuwZBmVrcA&usqp=CAU",
-      "url": "https://www.linkedin.com/in/francois-grunert/"
+      "name": "Amaury D.",
+      "title": "Titre",
+      "text": "Texte",
+      "image": "/amaury.jpg",
+      "url": "https://www.linkedin.com/in/amaury-delaroque/"
   },
   {
-      "name": "Charlie DevOps",
-      "title": "Partenaire de confiance",
-      "text": "Travailler avec François a été une expérience formidable. En tant que collègue développeur, il a toujours été fiable, prêt à partager ses connaissances et à collaborer de manière efficace. Sa passion pour le développement se reflète dans la qualité de son travail.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr_IULLOXJT80cLu-eRqkRGrHY23yLEx4p0w&usqp=CAU",
-      "url": "https://www.linkedin.com/in/francois-grunert/"
+      "name": "Valentin M.",
+      "title": "Titre",
+      "text": "Texte",
+      "image": "/valentin.jpg",
+      "url": "https://www.linkedin.com/in/valentin-metz/"
   },
   {
-      "name": "Eva Engineer",
-      "title": "Compétences exceptionnelles",
-      "text": "François est un développeur incroyablement talentueux. Sa capacité à résoudre des problèmes complexes et à créer des solutions innovantes est impressionnante. C'est un atout précieux pour n'importe quelle équipe de développement.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS40Ory8IOPLpzWCbejMyie6vYf8e7vT3M5Nw&usqp=CAU",
-      "url": "https://www.linkedin.com/in/francois-grunert/"
-  },
-  {
-      "name": "Frank Codeur",
-      "title": "Livraison ponctuelle",
-      "text": "J'ai eu le plaisir de travailler avec François sur plusieurs projets et il a toujours livré son travail à temps, sans compromettre la qualité. Sa gestion efficace du temps est un atout pour tout projet de développement.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj6XsJY-L1LAEJD5ppXhp4d3TjsqEnbaRpxZ5_75kfayWA1qibN5Pt5I8XbYuYqOv3smI&usqp=CAU",
-      "url": "https://www.linkedin.com/in/francois-grunert/"
-  },
-  {
-      "name": "Grace Geek",
-      "title": "Excellent mentor",
-      "text": "François m'a beaucoup aidé à progresser en tant que développeur. Il est un mentor exceptionnel, toujours prêt à partager ses connaissances et à donner des conseils précieux. Je suis reconnaissant pour son soutien.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-QSTiahdKODtBSzMaIxXzFqzQCzLpBPqevQ&usqp=CAU",
-      "url": "https://www.linkedin.com/in/francois-grunert/"
+      "name": "Hélène N.",
+      "title": "Titre",
+      "text": "Texte",
+      "image": "/helene.jpg",
+      "url": "https://www.linkedin.com/in/helene-nguyen-yumicode/"
   }
 ]

@@ -28,16 +28,16 @@ const Presentation = () => {
                         <Stack alignItems="center" spacing={1}>
                           <Avatar sx={{ bgcolor: "orange" }}>{icons[skill.icon]}</Avatar>
                           <Typography variant="h6" fontWeight="bold">{skill.title}</Typography>
-                          <Typography>{skill.text}</Typography>
+                          <Typography key={skill.text}>{skill.text}</Typography>
                         </Stack>
                         <Box>
                           <Typography fontWeight="bold">LANGAGES</Typography>
-                          <Typography>{skill.languages}</Typography>
+                          <Typography key={skill.languages}>{skill.languages}</Typography>
                         </Box>
                         <Box>
                           <Typography fontWeight="bold">OUTILS</Typography>
                           {skill.tools.map(tool =>
-                            <Typography>{tool}</Typography>
+                            <Typography key={tool}>{tool}</Typography>
                           )}
                         </Box>
                       </Stack>

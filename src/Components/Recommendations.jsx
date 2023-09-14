@@ -1,5 +1,6 @@
 import { Avatar, Box, Container, Divider, Link, List, ListItem, ListItemAvatar, ListItemText, Stack, Typography } from "@mui/material";
 import ListRecommendations from "../Data/Recommendations.json"
+import React from "react";
 
 
 const Recommendations = () => {
@@ -9,12 +10,12 @@ const Recommendations = () => {
       <Container>
         <Stack alignItems="center" spacing={3}>
           <Typography variant="h4" fontWeight="bold" textAlign="center">Recommandations</Typography>
-          <Typography variant="body1" textAlign="center">Ils parlent de moi mieux que je ne le ferais jamais.</Typography>
+          <Typography variant="body1" textAlign="center">Ils parlent de moi mieux que je ne le ferai jamais.</Typography>
 
           <List sx={{ width: '100%', bgcolor: 'background.paper', color:"#000" }}>
 
             {ListRecommendations.map(recommendation =>
-              <>
+              <React.Fragment key={recommendation.name}>
                 <ListItem alignItems="flex-start">
                   <ListItemAvatar><Avatar src={recommendation.image}/></ListItemAvatar>
                   <ListItemText primary={recommendation.title} secondary={
@@ -26,7 +27,7 @@ const Recommendations = () => {
                     />
                 </ListItem>
                 {ListRecommendations.indexOf(recommendation) != ListRecommendations.length -1 && <Divider variant="inset" component="li"/>}
-              </>
+              </React.Fragment>
             )}
 
 

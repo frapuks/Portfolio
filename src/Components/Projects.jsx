@@ -17,7 +17,7 @@ const Projects = () => {
           <Grid container direction="row" justifyContent="space-evenly" alignItems="center" spacing={2}>
 
             {ListProjects.map(project =>
-              <Grid item xs={12} md={4}>
+              <Grid item xs={12} md={4} key={project.title}>
                 <Paper elevation={3}>
                   <Card>
                     <CardMedia sx={{ height: 200 }} image={project.image}/>
@@ -27,7 +27,7 @@ const Projects = () => {
                     </CardContent>
                     <CardActions>
                       {project.actions.map(action =>
-                        <Button variant={action.variant} href={action.url} target="blank" disabled={action.url === "#"}>{action.label}</Button>
+                        <Button variant={action.variant} key={action.label} href={action.url} target="blank" disabled={action.url === "#"}>{action.label}</Button>
                       )}
                     </CardActions>
                   </Card>

@@ -7,7 +7,7 @@
       {
         "variant": "contained",
         "label": "Site",
-        "url": "#"
+        "url": "https://myfamilygoal.fg-tech.fr/"
       },
       {
         "variant": "outlined",
@@ -29,7 +29,7 @@
       {
         "variant": "contained",
         "label": "Site",
-        "url": "#"
+        "url": "https://alphadrink.fg-tech.fr/"
       },
       {
         "variant": "outlined",
@@ -49,18 +49,8 @@
     "image": "/ligueGrandEst.jpg",
     "actions": [
       {
-        "variant": "contained",
-        "label": "Site",
-        "url": "#"
-      },
-      {
         "variant": "outlined",
-        "label": "Iphone",
-        "url": "#"
-      },
-      {
-        "variant": "outlined",
-        "label": "Android",
+        "label": "Déploiement en cours",
         "url": "#"
       }
     ]
