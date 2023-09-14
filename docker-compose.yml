@@ -5,5 +5,5 @@ services:
     container_name: "portfolio-frapuks-react"
     image: portfolio-frapuks-react
     ports:
-      - '6005:6005'
+      - '6005:5173'
     restart: always
