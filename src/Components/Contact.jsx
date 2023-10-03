@@ -28,7 +28,7 @@ const Contact = () => {
           <Button variant="outlined" startIcon={<Download />} href="/francoisGrunert.pdf" download="francoisGrunert.pdf">Mon CV</Button>
           <Button variant="contained" startIcon={<Send />} href="mailto:francoisgrunert@gmail.com">Ecrivez moi</Button>
         </Stack>
-        <Box component="img" alt="devices" src="/devices.png" width="100%"></Box>
+        <Box component="img" alt="devices" src="/devices.webp" width="100%"/>
       </Container>
     </Box>
   )

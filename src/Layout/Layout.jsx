@@ -7,7 +7,7 @@ import { BackToTopButton } from "../Components";
 
 const Layout = () => {
   return (
-      <Box sx={{minHeight:"100vh", fontFamily:"roboto"}} id="top">
+      <Box sx={{minHeight:"100vh", fontFamily:"roboto"}} id="home">
         <Header />
         <main>
           <Outlet />
